@@ -1,0 +1,87 @@
+body {
+    font-family: 'Times New Roman', serif; /* More formal font */
+    background-color: white;
+    color: #081b44;
+    line-height: 1.6;
+}
+
+fieldset {
+    border: 2px solid rgba(8, 27, 68, 0.89); /* Slightly thicker border for clarity */
+    border-radius: .25rem;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+legend {
+    font-size: 1em;
+    font-weight: bold;
+    background: white;
+    color: #06459d;
+    padding: 0 10px;
+}
+
+legend.inner {
+    font-size: .85em;
+    text-align: center;
+        background: #06459d;
+    border-radius: 9999px;
+    color: white;
+}
+
+fieldset.multi {
+    border: none;
+}
+
+legend.multi {
+    text-align: right;
+}
+
+/* Form Element Styling */
+label {
+    display: block;
+    margin-bottom: 5px; /* Reduced spacing */
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Button Styling */
+input[type="submit"],
+button {
+    background-color: #06459d; /* More formal button color */
+    border-radius: .25rem;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #08286e; /* Darker hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    fieldset {
+        padding: 10px;
+    }
+
+    /* Optional: Adjust font size for smaller screens */
+    body {
+        font-size: 0.9em;
+    }
+}

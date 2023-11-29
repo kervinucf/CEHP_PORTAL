@@ -1,16 +1,12 @@
-<fieldset style="display: flex;flex-direction: column">
-    <!-- 1 -->
+<fieldset >
     <legend>Completed By</legend>
-    <label for="optA">
-        Submitted By: <input type="text" name="text" placeholder="Signature">
-
+    <label for="submittedBy">
+        Submitted By: <input type="text" id="submittedBy" name="submittedBy" placeholder="Signature">
     </label>
-        <label for="optA">
-        Title/License: <input type="text" name="text" placeholder="Title/License">
-
+    <label for="titleLicense">
+        Title/License: <input type="text" id="titleLicense" name="titleLicense" placeholder="Title/License">
     </label>
-    <label for="optA">
-        Date: <input type="text" name="text" placeholder="Date">
-
+    <label for="submissionDate">
+        Date: <input type="text" id="submissionDate" name="submissionDate" placeholder="Date">
     </label>
 </fieldset>

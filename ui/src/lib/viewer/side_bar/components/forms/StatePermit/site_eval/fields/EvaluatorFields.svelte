@@ -1,4 +1,4 @@
-<fieldset style="display: flex;flex-direction: column">
+<fieldset>
     <!-- 1 -->
     <legend>Completed By</legend>
     <label for="optA">

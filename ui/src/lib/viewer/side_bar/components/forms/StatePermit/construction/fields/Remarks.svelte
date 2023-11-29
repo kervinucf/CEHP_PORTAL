@@ -1,4 +1,4 @@
-<fieldset style="display: flex;flex-direction: column">
+<fieldset >
         <legend>
             Remarks / Additional Criteria
         </legend>

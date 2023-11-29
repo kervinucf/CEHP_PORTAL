@@ -6,8 +6,8 @@
     import {onMount} from "svelte";
 
     let application = false;
-    let site_evaluation = false;
     let construction = false;
+    let site_evaluation = true;
 
     $: form_path =
         site_evaluation ? "./forms/site evaluation/site evaluation-1.svg" :
@@ -35,7 +35,7 @@
 
     onMount(() => {
         const download = document.getElementById("download");
-        download.addEventListener("click", captureElementScreenshot);
+        // download.addEventListener("click", captureElementScreenshot);
     });
 </script>
 
@@ -59,7 +59,7 @@
             <FormViewer bind:form_path/>
         </div>
         <div class="sidebar">
-            <SideBar />
+            <SideBar bind:form_path />
         </div>
 
     </div>
@@ -71,8 +71,6 @@
 
     /* Sidebar Styles */
     .sidebar {
-        background-color: #f2f2f2;
-        color: #111111;
         padding: 1rem;
         overflow-y: auto;
     }

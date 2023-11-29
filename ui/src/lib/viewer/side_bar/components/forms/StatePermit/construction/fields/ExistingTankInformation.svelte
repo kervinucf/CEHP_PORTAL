@@ -1,87 +1,70 @@
-<fieldset style="display: flex;flex-direction: column">
-    <!-- 1 -->
-    <legend>2. Existing Tank Information</legend>
-    <!-- 1 -->
-    <fieldset style="display: flex;flex-direction: column">
-        <legend>
-            Primary Septic Tank
-        </legend>
-        <label for="optA">
-            Gallons: <input type="text" name="text" placeholder="Gallons">
+<fieldset>
+    <legend>Existing Tank Information</legend>
 
+    <fieldset>
+        <legend class="inner">Primary Septic Tank</legend>
+        <label for="primaryGallons">
+            Gallons: <input type="text" id="primaryGallons" name="primaryGallons" placeholder="Gallons">
         </label>
-        <label for="optA">
-            Legend: <input type="text" name="text" placeholder="Legend">
-
+        <label for="primaryLegend">
+            Legend: <input type="text" id="primaryLegend" name="primaryLegend" placeholder="Legend">
         </label>
-        <label for="optA">
-            Material: <input type="text" name="text" placeholder="Material">
+        <label for="primaryMaterial">
+            Material: <input type="text" id="primaryMaterial" name="primaryMaterial" placeholder="Material">
         </label>
-        <label>
-            Baffled: <select name="baffled" id="baffled">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-        </select>
+        <label for="primaryBaffled">
+            Baffled: <select name="primaryBaffled" id="primaryBaffled">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
         </label>
     </fieldset>
-    <p></p>
-    <fieldset style="display: flex;flex-direction: column">
-        <legend>
-            Secondary Septic Tank
-        </legend>
-        <label for="optA">
-            Gallons: <input type="text" name="text" placeholder="Gallons">
 
+    <fieldset>
+        <legend class="inner">Secondary Septic Tank</legend>
+        <label for="secondaryGallons">
+            Gallons: <input type="text" id="secondaryGallons" name="secondaryGallons" placeholder="Gallons">
         </label>
-        <label for="optA">
-            Legend: <input type="text" name="text" placeholder="Legend">
-
+        <label for="secondaryLegend">
+            Legend: <input type="text" id="secondaryLegend" name="secondaryLegend" placeholder="Legend">
         </label>
-        <label for="optA">
-            Material: <input type="text" name="text" placeholder="Material">
+        <label for="secondaryMaterial">
+            Material: <input type="text" id="secondaryMaterial" name="secondaryMaterial" placeholder="Material">
         </label>
-        <label>
-            Baffled: <select name="baffled" id="baffled">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-        </select>
+        <label for="secondaryBaffled">
+            Baffled: <select name="secondaryBaffled" id="secondaryBaffled">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
         </label>
     </fieldset>
-    <p></p>
-    <fieldset style="display: flex;flex-direction: column">
-        <legend>
-            Grease Interceptor
-        </legend>
-        <label for="optA">
-            Gallons: <input type="text" name="text" placeholder="Gallons">
 
+    <fieldset>
+        <legend class="inner">Grease Interceptor</legend>
+        <label for="greaseGallons">
+            Gallons: <input type="text" id="greaseGallons" name="greaseGallons" placeholder="Gallons">
         </label>
-        <label for="optA">
-            Legend: <input type="text" name="text" placeholder="Legend">
-
+        <label for="greaseLegend">
+            Legend: <input type="text" id="greaseLegend" name="greaseLegend" placeholder="Legend">
         </label>
-        <label for="optA">
-            Material: <input type="text" name="text" placeholder="Material">
+        <label for="greaseMaterial">
+            Material: <input type="text" id="greaseMaterial" name="greaseMaterial" placeholder="Material">
         </label>
     </fieldset>
-    <p></p>
-    <fieldset style="display: flex;flex-direction: column">
-        <legend>
-            Dosing Tank
-        </legend>
-        <label for="optA">
-            Gallons: <input type="text" name="text" placeholder="Gallons">
 
+    <fieldset>
+        <legend class="inner">Dosing Tank</legend>
+        <label for="dosingGallons">
+            Gallons: <input type="text" id="dosingGallons" name="dosingGallons" placeholder="Gallons">
         </label>
-        <label for="optA">
-            Legend: <input type="text" name="text" placeholder="Legend">
-
+        <label for="dosingLegend">
+            Legend: <input type="text" id="dosingLegend" name="dosingLegend" placeholder="Legend">
         </label>
-        <label for="optA">
-            Material: <input type="text" name="text" placeholder="Material">
+        <label for="dosingMaterial">
+            Material: <input type="text" id="dosingMaterial" name="dosingMaterial" placeholder="Material">
         </label>
-        <label for="optA">
-            # Pumps <input type="text" name="text" placeholder="# Pumps">
+        <label for="dosingPumps">
+            # Pumps: <input type="text" id="dosingPumps" name="dosingPumps" placeholder="# Pumps">
         </label>
     </fieldset>
 </fieldset>

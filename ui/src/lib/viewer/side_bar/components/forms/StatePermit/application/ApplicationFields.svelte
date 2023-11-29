@@ -8,6 +8,10 @@
     import SignerFields from "$lib/viewer/side_bar/components/forms/StatePermit/application/fields/SignerFields.svelte";
 </script>
 
+<style>
+    
+</style>
+
 <div>
     <h3>
         Application Page

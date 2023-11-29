@@ -1,8 +1,11 @@
 <fieldset>
-    <!-- 1 -->
-    <legend>2. Property Information</legend>
-    <fieldset style="display: flex;flex-direction: column">
-        <!-- 1 -->
+             <legend>
+            Property Information
+        </legend>
+    <fieldset >
+         <legend class="inner">
+            Property
+        </legend>
         <label for="optA">
             Lot: <input type="text" name="text" placeholder="Lot">
 
@@ -51,12 +54,14 @@
     <p></p>
     <fieldset>
         <!-- 1 -->
-        <legend>Water Supply</legend>
+         <legend class="inner">
+            Water Supply
+        </legend>
         <label for="optA">
             <input type="radio" value="A" name="radio" id="optA"> Private
         </label>
         <label for="optB">
-            <input type="radio" value="B" name="radio" id="optB" unchecked> Public = 2000 Gallons Per Day
+            <input type="radio" value="B" name="radio" id="optB"> Public = 2000 Gallons Per Day
         </label>
         <label for="optC">
             <input type="radio" value="C" name="radio" id="optC"> Public > 2000 Gallons Per Day

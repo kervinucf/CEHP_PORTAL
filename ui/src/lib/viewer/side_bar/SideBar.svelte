@@ -5,10 +5,13 @@
         from "$lib/viewer/side_bar/components/forms/StatePermit/construction/ConstructionFields.svelte";
     import SiteEvaluationFields
         from "$lib/viewer/side_bar/components/forms/StatePermit/site_eval/SiteEvaluationFields.svelte";
+
+    export let form_path;
+
 </script>
 
 <h2>
-    <i class="fa-solid fa-house" style="font-size: 25px;margin-right: .25rem;"></i> <span>3341 S San Mateo Dr</span>
+    <span>3341 S San Mateo Dr</span>
 </h2>
 
 <div>
@@ -64,5 +67,11 @@
 
 
 <div>
-    <SiteEvaluationFields />
+    {#if form_path == "./forms/application/application-1.svg"}
+        <ApplicationFields />
+        {:else if form_path == "./forms/construction/construction-1.svg"}
+        <ConstructionFields />
+        {:else if form_path == "./forms/site evaluation/site evaluation-1.svg"}
+        <SiteEvaluationFields />
+        {/if}
 </div>
