@@ -13,11 +13,16 @@ fieldset {
     background: white;
 }
 
+h3 {
+        color: #08286e;
+
+}
+
 legend {
     font-size: 1em;
     font-weight: bold;
     background: white;
-    color: #06459d;
+    color: #081b44;
     padding: 0 10px;
 }
 
